@@ -1,0 +1,148 @@
+*{
+    margin: 100;
+    padding: 100;
+    font-family: Tahoma ;
+}
+
+body{
+    
+    background-image: url("fondo.png");
+    background-size: cover;  
+    background-repeat: no-repeat;  
+    margin: 0;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorcajatexto{
+    position: absolute;
+    left: 70px;
+    top: 130px;
+    padding-left: 80px;
+    width: 800px;
+    height: 480px;
+}
+
+.cajatexto{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc63;
+    cursor: pointer;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Tahoma;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.cajatexto::placeholder{
+    color: #000000;
+}
+
+.contenedor-botones{
+    position: absolute;
+    top: 700px;
+    height: 80px;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+
+.btn-encriptar{
+    width: 368px;
+    height: 80px;
+    border-radius: 45px;
+    background-image: url(encrip.png);
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    width: 368px;
+    height: 80px;
+    border-radius: 45px;
+    background-image: url(desenc.png);
+    cursor: pointer;
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 550px;
+    right: 100px;
+    top: 80px;
+    margin-top: 50px;
+    padding-right: 150px;
+    background-color: #f4f4fc63;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+
+}
+
+.contenedorpersonaje{
+    position: absolute;
+    left: 60px;
+    top: -80px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.contenedor-texto {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.contenedor-texto h3 {
+    font-size: 27px; 
+    font-family: Tahoma;
+}
+
+.contenedor-texto p {
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+.contenedor-resultado {
+    position: absolute;
+    bottom: 150px;
+    width: 320px;
+    max-height: 450px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin-left: 25px;
+    font-family: Tahoma;
+    white-space: pre-wrap;
+}
+
+.contenedor-resultado p {
+    color: #000000;
+    font-size: 30px; 
+    
+}
+
+.btn-copiar{
+    width: 350px;
+    height: 85px;
+    border-radius: 50px;
+    background-image: url(copiar.png);
+    cursor: pointer;
+    position: relative;
+    top: 450px;
+    right: -20px;
+}
+
+.ocultar{
+    display: none;
+}
